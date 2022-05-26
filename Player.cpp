@@ -15,10 +15,10 @@ void Player::Move(){
 		this->x_position++;
 		break;
 	case 'w':
-		this->y_position++;
+		this->y_position--;
 		break;
 	case 's':
-		this->y_position--;
+		this->y_position++;
 		break;
 	default:
 		break;

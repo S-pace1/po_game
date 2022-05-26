@@ -3,8 +3,8 @@ GameObject::GameObject(char icon, int maxX, int maxY) {
 	this->icon = icon;
 	this->y_position = 0;
 	this->x_position = 0;
-	this->maxX = maxX;
-	this->maxY = maxY;
+	this->maxX = maxX - 1;
+	this->maxY = maxY - 1;
 }
 int GameObject::GetXPosition() {
 	return this->x_position;

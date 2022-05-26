@@ -6,9 +6,11 @@ class Game
 {
 private:
 	int maxPoints;
+	int points;
 	Board* board;
 	Player* player;
 	Goal* goal;
+
 public:
 	Game(int maxPoints);
 	void Play();
